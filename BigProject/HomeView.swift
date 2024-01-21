@@ -9,8 +9,23 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var scrums = DailyScrum.sampleData
+    @State private var modelData = ModelData()
+
     var body: some View {
         TabView {
+            LocationView()
+                .tabItem {
+                    Label("Weather", systemImage: "sun.min")
+                }
+            ContentView()
+                .environment(modelData)
+                .tabItem {
+                    Label("Landmark", systemImage: "globe.central.south.asia")
+                }
+            MapDemoView()
+                .tabItem {
+                    Label("Map", systemImage: "map")
+                }
             ScrumsView(scrums: $scrums)
                 .tabItem {
                     Label("Home", systemImage: "person")
