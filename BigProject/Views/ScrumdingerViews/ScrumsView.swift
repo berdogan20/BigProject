@@ -15,7 +15,6 @@ struct ScrumsView: View {
     @Binding var scrums: [DailyScrum]
     @State private var isPresentingNewScrumView = false
 
-
     var body: some View {
         NavigationStack {
             List($scrums) { $scrum in

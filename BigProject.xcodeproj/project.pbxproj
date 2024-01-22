@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713D6D012B5E55E800F3EB5E /* StepperDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6D002B5E55E800F3EB5E /* StepperDS.swift */; };
+		713D6D042B5E593A00F3EB5E /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6D032B5E593A00F3EB5E /* AnimationView.swift */; };
+		713D6D062B5E594D00F3EB5E /* CircularAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6D052B5E594D00F3EB5E /* CircularAnimation.swift */; };
+		713D6D0A2B5E5DAE00F3EB5E /* TextBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6D092B5E5DAE00F3EB5E /* TextBlockView.swift */; };
+		713D6D0C2B5E5DBF00F3EB5E /* OtherSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6D0B2B5E5DBF00F3EB5E /* OtherSampleView.swift */; };
+		713D6D0E2B5E5DE900F3EB5E /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6D0D2B5E5DE900F3EB5E /* EnvironmentView.swift */; };
+		713D6D102B5E5E4B00F3EB5E /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6D0F2B5E5E4B00F3EB5E /* SampleView.swift */; };
+		713D6D122B5E5E5E00F3EB5E /* ObservedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6D112B5E5E5E00F3EB5E /* ObservedView.swift */; };
 		71989F3B2B5CE8E30088EB72 /* BigProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71989F3A2B5CE8E30088EB72 /* BigProjectApp.swift */; };
 		71989F3D2B5CE8E30088EB72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71989F3C2B5CE8E30088EB72 /* HomeView.swift */; };
 		71989F3F2B5CE8E40088EB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71989F3E2B5CE8E40088EB72 /* Assets.xcassets */; };
@@ -88,6 +96,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		713D6D002B5E55E800F3EB5E /* StepperDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperDS.swift; sourceTree = "<group>"; };
+		713D6D032B5E593A00F3EB5E /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		713D6D052B5E594D00F3EB5E /* CircularAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularAnimation.swift; sourceTree = "<group>"; };
+		713D6D092B5E5DAE00F3EB5E /* TextBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBlockView.swift; sourceTree = "<group>"; };
+		713D6D0B2B5E5DBF00F3EB5E /* OtherSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSampleView.swift; sourceTree = "<group>"; };
+		713D6D0D2B5E5DE900F3EB5E /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
+		713D6D0F2B5E5E4B00F3EB5E /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		713D6D112B5E5E5E00F3EB5E /* ObservedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedView.swift; sourceTree = "<group>"; };
 		71989F372B5CE8E30088EB72 /* BigProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71989F3A2B5CE8E30088EB72 /* BigProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigProjectApp.swift; sourceTree = "<group>"; };
 		71989F3C2B5CE8E30088EB72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -180,6 +196,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		713D6D022B5E592F00F3EB5E /* AnimationViews */ = {
+			isa = PBXGroup;
+			children = (
+				713D6D032B5E593A00F3EB5E /* AnimationView.swift */,
+				713D6D052B5E594D00F3EB5E /* CircularAnimation.swift */,
+			);
+			path = AnimationViews;
+			sourceTree = "<group>";
+		};
+		713D6D072B5E5D9000F3EB5E /* EnvironmentViews */ = {
+			isa = PBXGroup;
+			children = (
+				713D6D092B5E5DAE00F3EB5E /* TextBlockView.swift */,
+				713D6D0B2B5E5DBF00F3EB5E /* OtherSampleView.swift */,
+				713D6D0D2B5E5DE900F3EB5E /* EnvironmentView.swift */,
+			);
+			path = EnvironmentViews;
+			sourceTree = "<group>";
+		};
+		713D6D082B5E5D9900F3EB5E /* ObservedViews */ = {
+			isa = PBXGroup;
+			children = (
+				713D6D0F2B5E5E4B00F3EB5E /* SampleView.swift */,
+				713D6D112B5E5E5E00F3EB5E /* ObservedView.swift */,
+			);
+			path = ObservedViews;
+			sourceTree = "<group>";
+		};
 		71989F2E2B5CE8E30088EB72 = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +272,7 @@
 				71989F4E2B5CE9780088EB72 /* Radius.swift */,
 				71989F502B5CE9860088EB72 /* Loading.swift */,
 				71989F522B5CE9960088EB72 /* ButtonDS.swift */,
+				713D6D002B5E55E800F3EB5E /* StepperDS.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -249,6 +294,9 @@
 		71989F4A2B5CE94B0088EB72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				713D6D082B5E5D9900F3EB5E /* ObservedViews */,
+				713D6D072B5E5D9000F3EB5E /* EnvironmentViews */,
+				713D6D022B5E592F00F3EB5E /* AnimationViews */,
 				71989FE72B5DA1450088EB72 /* WeatherViews */,
 				71989FC92B5D85930088EB72 /* LandmarkViews */,
 				71989FBC2B5D7B060088EB72 /* MapViews */,
@@ -565,11 +613,13 @@
 				71989FBE2B5D7B150088EB72 /* MapDemoView.swift in Sources */,
 				71989F912B5D2D4E0088EB72 /* StoryView2.swift in Sources */,
 				71989FDC2B5D8DAD0088EB72 /* FavoriteButton.swift in Sources */,
+				713D6D122B5E5E5E00F3EB5E /* ObservedView.swift in Sources */,
 				71989F3D2B5CE8E30088EB72 /* HomeView.swift in Sources */,
 				71989FC02B5D7BD30088EB72 /* MapDemoViewModel.swift in Sources */,
 				71989F632B5CF6C40088EB72 /* DetailView.swift in Sources */,
 				71989F962B5D4A650088EB72 /* BestSellersDataSourceDelegate.swift in Sources */,
 				71989F592B5CF42E0088EB72 /* Theme.swift in Sources */,
+				713D6D042B5E593A00F3EB5E /* AnimationView.swift in Sources */,
 				71989FD82B5D88F70088EB72 /* LandmarkList.swift in Sources */,
 				71989F692B5D011A0088EB72 /* ThemePicker.swift in Sources */,
 				71989F7F2B5D2B730088EB72 /* AboutMerTabView.swift in Sources */,
@@ -606,22 +656,27 @@
 				71989F572B5CF4270088EB72 /* DailyScrum.swift in Sources */,
 				71989F942B5D4A5C0088EB72 /* BestSellersDataSource.swift in Sources */,
 				71989F6F2B5D17860088EB72 /* MeetingFooterView.swift in Sources */,
+				713D6D102B5E5E4B00F3EB5E /* SampleView.swift in Sources */,
 				71989F792B5D27D40088EB72 /* History.swift in Sources */,
 				71989FD62B5D88AF0088EB72 /* ModelData.swift in Sources */,
+				713D6D0E2B5E5DE900F3EB5E /* EnvironmentView.swift in Sources */,
 				71989FD22B5D87B30088EB72 /* Landmark.swift in Sources */,
 				71989F6D2B5D16840088EB72 /* ScrumTimer.swift in Sources */,
 				71989F532B5CE9960088EB72 /* ButtonDS.swift in Sources */,
 				71989FD42B5D88660088EB72 /* LandmarkRow.swift in Sources */,
 				71989F772B5D1ADC0088EB72 /* NewScrumSheet.swift in Sources */,
 				71989FCC2B5D86280088EB72 /* MapView.swift in Sources */,
+				713D6D012B5E55E800F3EB5E /* StepperDS.swift in Sources */,
 				71989F872B5D2BB00088EB72 /* AboutMeHomeView.swift in Sources */,
 				71989FB22B5D61FB0088EB72 /* CatImages.swift in Sources */,
+				713D6D0C2B5E5DBF00F3EB5E /* OtherSampleView.swift in Sources */,
 				71989F4F2B5CE9780088EB72 /* Radius.swift in Sources */,
 				71989FCE2B5D864B0088EB72 /* CircleImage.swift in Sources */,
 				71989FB72B5D623A0088EB72 /* CatsViewModel.swift in Sources */,
 				71989FBB2B5D62520088EB72 /* CatImagesViewModel.swift in Sources */,
 				71989FA42B5D53EC0088EB72 /* BookDetailView.swift in Sources */,
 				71989F8D2B5D2CF10088EB72 /* StoryModels.swift in Sources */,
+				713D6D0A2B5E5DAE00F3EB5E /* TextBlockView.swift in Sources */,
 				71989FB02B5D61EB0088EB72 /* Cats.swift in Sources */,
 				71989FF62B5DA3020088EB72 /* WeatherDataSource.swift in Sources */,
 				71989FA92B5D61B40088EB72 /* CatsDataSource.swift in Sources */,
@@ -632,6 +687,7 @@
 				71989FE42B5D90AB0088EB72 /* CategoryItem.swift in Sources */,
 				71989F5C2B5CF49C0088EB72 /* MeetingView.swift in Sources */,
 				71989F812B5D2B8B0088EB72 /* StoryView.swift in Sources */,
+				713D6D062B5E594D00F3EB5E /* CircularAnimation.swift in Sources */,
 				71989F612B5CF6AE0088EB72 /* ScrumsView.swift in Sources */,
 				71989F732B5D18F10088EB72 /* ScrumProgressViewStyle.swift in Sources */,
 				71989F6B2B5D15B30088EB72 /* MeetingHeaderView.swift in Sources */,
